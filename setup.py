@@ -17,15 +17,14 @@ with open(os.path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name = 'rshell',
+    name = 'rshell-python3.12',
     version = main_ns['__version__'],
     author = 'Dave Hylands',
     author_email = 'dhylands@gmail.com',
-    description = ('A remote shell for working with MicroPython boards.'),
+    description = ('A remote shell for working with MicroPython boards. UPDATED: To work with Python 3.12'),
     license = 'MIT',
     keywords = 'micropython shell',
-    url = 'https://github.com/dhylands/rshell',
-    download_url = 'https://github.com/dhylands/rshell/tarball/v0.0.1',
+    url = 'https://github.com/avabellaw/rshell-python3.12',
     packages=['rshell', 'tests'],
     long_description=long_description,
     classifiers=[
